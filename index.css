@@ -64,18 +64,11 @@ span{
     }
 }
 
-@media(min-width: 400px) and (max-width: 540px){
+@media(max-width: 540px){
  
     .only-container{
-        width: 32vw;
-        height: 32vw; 
+        width: 40vw;
+        height: 40vw; 
     }
 }
-
-@media(max-width: 400px){
- 
-    .only-container{
-        width: 50vw;
-        height: 50vw; 
-    }
 }
