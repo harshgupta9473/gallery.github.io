@@ -67,8 +67,8 @@ span{
 @media(max-width: 540px){
  
     .only-container{
-        width: 40vw;
-        height: 40vw; 
+        width: 50vw;
+        height: 50vw; 
     }
 }
 }
