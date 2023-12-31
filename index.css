@@ -65,10 +65,16 @@ span{
 }
 
 @media(max-width: 540px){
- 
+ #heading{
+     font-size:40px;
+     font-weight: 700
+ }
     .only-container{
-        width: 50vw;
-        height: 50vw; 
+        width: 30vw;
+        height: 30vw; 
+    }
+    .image-container{
+        gap:15px;
     }
 }
 }
