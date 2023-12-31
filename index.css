@@ -21,7 +21,7 @@
 .image-container{
     display: flex;
     flex-wrap: wrap;
-    max-width: 980px;
+    max-width: 70%;
     gap: 23px;
 }
 
@@ -57,51 +57,25 @@ span{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
     filter: grayscale(100%)
 }
-@media (min-width: 920px) and (max-width: 1150px){
-    .image-container{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 800px;
-        gap: 23px;
-    }
+ @media (min-width: 540px) and (max-width: 920px){
     .only-container{
-        width: 25vw;
-        height: 25vw; 
+        width: 30vw;
+        height: 30vw; 
     }
 }
-@media(min-width: 768px) and (max-width: 920px){
-    .image-container{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 600px;
-        gap: 23px;
-    }
+
+@media(min-width: 400px) and (max-width: 540px){
+ 
     .only-container{
-        width: 25vw;
-        height: 25vw; 
+        width: 32vw;
+        height: 32vw; 
     }
 }
-@media(min-width: 614px) and (max-width: 768px){
-    .image-container{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 400px;
-        gap: 23px;
-    }
+
+@media(max-width: 400px){
+ 
     .only-container{
-        width: 25vw;
-        height: 25vw; 
-    }
-} 
-@media(max-width: 414px){
-    .image-container{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 300px;
-        gap: 23px;
-    }
-    .only-container{
-        width: 35vw;
-        height: 35vw; 
+        width: 50vw;
+        height: 50vw; 
     }
 }
